@@ -35,6 +35,13 @@
     <dependencies>
         <!-- opencv start -->
         <dependency>
+            <groupId>org.opencv</groupId>
+            <artifactId>opencv</artifactId>
+            <version>4.5.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/libs/opencv-451.jar</systemPath>
+        </dependency>
+        <dependency>
             <groupId>org.bytedeco.javacpp-presets</groupId>
             <artifactId>ffmpeg</artifactId>
             <version>${ffmpeg.version}</version>
