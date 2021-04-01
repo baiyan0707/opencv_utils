@@ -1,5 +1,6 @@
 package xyz.byan.opencv.util;
 
+import lombok.experimental.UtilityClass;
 import org.opencv.core.Mat;
 
 import java.util.ArrayList;
@@ -10,6 +11,7 @@ import java.util.List;
  * @date: 2021/1/28 16:07.
  * @description: 一些数学计算
  */
+@UtilityClass
 public class MathUtils {
 
     /**

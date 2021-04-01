@@ -1,5 +1,6 @@
 package xyz.byan.opencv.util;
 
+import lombok.experimental.UtilityClass;
 import org.opencv.core.*;
 import org.opencv.imgproc.Imgproc;
 
@@ -11,6 +12,7 @@ import java.util.List;
  * @date: 2021/1/28 16:04.
  * @description: 轮廓工具类
  */
+@UtilityClass
 public class ContoursUtils {
 
     /**

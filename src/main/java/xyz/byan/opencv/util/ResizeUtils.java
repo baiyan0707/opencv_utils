@@ -1,5 +1,6 @@
 package xyz.byan.opencv.util;
 
+import lombok.experimental.UtilityClass;
 import org.opencv.core.Mat;
 import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
@@ -9,6 +10,7 @@ import org.opencv.imgproc.Imgproc;
  * @date: 2021/1/28 16:10.
  * @description: 归一化工具类
  */
+@UtilityClass
 public class ResizeUtils {
 
     /**

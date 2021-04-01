@@ -23,12 +23,6 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.target>8</maven.compiler.target>
-
-        <ffmpeg.version>4.1-1.4.4</ffmpeg.version>
-        <javacv.version>1.5.4</javacv.version>
-        <opencv-platform.version>4.0.1-1.4.4</opencv-platform.version>
-        <android.version>4.1.1.4</android.version>
-        <support-annotations.version>27.1.1</support-annotations.version>
     </properties>
 
 
@@ -40,41 +34,6 @@
             <version>4.5.1</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/src/main/resources/libs/opencv-451.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>org.bytedeco.javacpp-presets</groupId>
-            <artifactId>ffmpeg</artifactId>
-            <version>${ffmpeg.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.bytedeco</groupId>
-            <artifactId>javacv</artifactId>
-            <version>${javacv.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.bytedeco.javacpp-presets</groupId>
-            <artifactId>ffmpeg-platform</artifactId>
-            <version>${ffmpeg.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.bytedeco</groupId>
-            <artifactId>javacv-platform</artifactId>
-            <version>${javacv.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.bytedeco.javacpp-presets</groupId>
-            <artifactId>opencv-platform</artifactId>
-            <version>${opencv-platform.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.android</groupId>
-            <artifactId>android</artifactId>
-            <version>${android.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.android.support</groupId>
-            <artifactId>support-annotations</artifactId>
-            <version>${support-annotations.version}</version>
         </dependency>
         <!-- opencv end -->
 
@@ -130,7 +89,7 @@
                 <artifactId>maven-resources-plugin</artifactId>
                 <configuration>
                     <encoding>${project.build.sourceEncoding}</encoding>
-                    <nonFilteredFileExtensions>dll,so</nonFilteredFileExtensions>
+                    <nonFilteredFileExtensions>dll,so,dylib</nonFilteredFileExtensions>
                 </configuration>
             </plugin>
             <plugin>

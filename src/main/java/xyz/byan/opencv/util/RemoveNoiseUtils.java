@@ -1,5 +1,6 @@
 package xyz.byan.opencv.util;
 
+import lombok.experimental.UtilityClass;
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
 import org.opencv.core.Scalar;
@@ -10,6 +11,7 @@ import org.opencv.imgproc.Imgproc;
  * @date: 2021/1/28 16:09.
  * @description: 降噪工具类
  */
+@UtilityClass
 public class RemoveNoiseUtils {
 
     /**

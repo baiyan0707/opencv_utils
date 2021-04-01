@@ -1,5 +1,6 @@
 package xyz.byan.opencv.util;
 
+import lombok.experimental.UtilityClass;
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
 import org.opencv.core.RotatedRect;
@@ -11,6 +12,7 @@ import org.opencv.imgproc.Imgproc;
  * @date: 2021/1/28 16:11.
  * @description: 选装矩形工具类
  */
+@UtilityClass
 public class RotationUtils {
 
     /**

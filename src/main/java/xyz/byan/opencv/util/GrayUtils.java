@@ -1,6 +1,7 @@
 package xyz.byan.opencv.util;
 
 
+import lombok.experimental.UtilityClass;
 import org.opencv.core.Mat;
 import org.opencv.imgproc.Imgproc;
 
@@ -12,6 +13,7 @@ import java.util.List;
  * @date: 2021/1/28 16:06.
  * @description: 对图像灰度处理的工具类
  */
+@UtilityClass
 public class GrayUtils {
 
     /**

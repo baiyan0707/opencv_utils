@@ -1,5 +1,6 @@
 package xyz.byan.opencv.util;
 
+import lombok.experimental.UtilityClass;
 import org.opencv.core.Mat;
 import org.opencv.imgproc.Imgproc;
 
@@ -8,6 +9,7 @@ import org.opencv.imgproc.Imgproc;
  * @date: 2021/1/28 16:02.
  * @description: 二值化的工具类
  */
+@UtilityClass
 public class BinaryUtils {
 
     /**

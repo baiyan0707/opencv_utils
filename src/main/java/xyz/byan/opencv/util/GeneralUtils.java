@@ -1,5 +1,6 @@
 package xyz.byan.opencv.util;
 
+import lombok.experimental.UtilityClass;
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
 import org.opencv.core.Size;
@@ -11,6 +12,7 @@ import org.opencv.imgproc.Imgproc;
  * @date: 2021/1/28 16:03.
  * @description: opencv的基础工具类
  */
+@UtilityClass
 public class GeneralUtils {
 
     private static final int BLACK = 0;

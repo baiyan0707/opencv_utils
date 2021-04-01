@@ -1,5 +1,6 @@
 package xyz.byan.opencv.util;
 
+import lombok.experimental.UtilityClass;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
@@ -15,6 +16,7 @@ import java.util.List;
  * @date: 2021/1/28 16:12.
  * @description: 透视变换工具
  */
+@UtilityClass
 public class WarpPerspectiveUtils {
 
     /**
